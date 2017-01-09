@@ -1,6 +1,6 @@
 {
     "name": "fis3-deploy-gfe-script-place",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "控制所有script标签的存放位置",
     "main": "index.js",
     "repository": {
