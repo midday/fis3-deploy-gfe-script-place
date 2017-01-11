@@ -10,7 +10,7 @@
  */
 module.exports = function(options, modified, total, next) {
     //js位置，默认插入到body结束标签之前
-    var insertBodyEndTagBefore = options.insertBodyEndTagBefore ? options.insertBodyEndTagBefore : true;
+    var insertBodyEndTagBefore = options.insertBodyEndTagBefore || true;
     //script标签的正则表达式
     var scriptTagRegExp = /(<script[^>]*>((?!<\s*\/script\s*>)[\s\S])*<\s*\/script\s*>)|(<\!--\[if\s)(((?!<\!\[endif\]-->)[\s\S])*)<script(((?!<\!\[endif\]-->)[\s\S])*)(<\!\[endif\]-->)/gi;
 
